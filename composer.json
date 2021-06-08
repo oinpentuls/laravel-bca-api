@@ -1,0 +1,38 @@
+{
+    "name": "oinpentuls/bca-api",
+    "version": "0.1.0",
+    "description": "Package api bca untuk laravel",
+    "keywords": ["bca", "api", "bca api", "api bca", "bca-api", "api-bca", "oinpentuls", "laravel api bca"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmad Tohir",
+            "email": "achmad.tohier@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Oinpentuls\\BcaApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Oinpentuls\\BcaApi\\Tests\\": "test"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Oinpentuls\\BcaApi\\BCAServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.5"
+    }
+}
