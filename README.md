@@ -4,5 +4,5 @@ Package untuk development api bca.
 ### install
 
 ```
-composer require oinpentuls/bca-api
+composer require oinpentuls/laravel-bca-api
 ```
