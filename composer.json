@@ -1,5 +1,5 @@
 {
-    "name": "oinpentuls/bca-api",
+    "name": "oinpentuls/laravel-bca-api",
     "version": "0.1.0",
     "description": "Package api bca untuk laravel",
     "keywords": ["bca", "api", "bca api", "api bca", "bca-api", "api-bca", "oinpentuls", "laravel api bca"],
